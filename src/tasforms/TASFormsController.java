@@ -130,6 +130,7 @@ public class TASFormsController implements Initializable {
   };
   //</editor-fold>
   private String string;
+  private ActionEvent ae;
 
   @Override
   public void initialize(URL url, ResourceBundle rb) {
@@ -156,6 +157,7 @@ public class TASFormsController implements Initializable {
     System.out.println(string);
     img = new Image(string);
     iv.setImage(img);
+    showPage(ae);
   }
 
   private void setCombo(String foldername) {
