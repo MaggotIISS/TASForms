@@ -22,7 +22,6 @@ public class TASForms extends Application {
     Parent root = FXMLLoader.load(getClass().getResource("TASForms.fxml"));
 
     Scene scene = new Scene(root);
-
     stage.setScene(scene);
     stage.show();
   }

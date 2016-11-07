@@ -7,9 +7,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="898.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tasforms.TASFormsController">
-   <children>
-      <ImageView fx:id="iv" fitHeight="873.0" fitWidth="620.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
-      <ComboBox fx:id="cb" onAction="#showPage" prefWidth="150.0" />
-   </children>
+<AnchorPane id="AnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tasforms.TASFormsController">
+  <children>
+    <ImageView fx:id="iv" fitHeight="1000.0" fitWidth="800.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="571.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0" />
+    <ComboBox fx:id="cb" onAction="#showPage" prefWidth="150.0" />
+    <CheckBox fx:id="check" layoutX="150.0" layoutY="3.0" mnemonicParsing="false" onAction="#checkChange" text="Master" />
+  </children>
 </AnchorPane>
