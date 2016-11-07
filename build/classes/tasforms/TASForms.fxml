@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="tasforms.TASFormsController">
+<AnchorPane id="AnchorPane" prefHeight="898.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tasforms.TASFormsController">
    <children>
-      <ChoiceBox prefWidth="150.0" />
+      <ImageView fx:id="iv" fitHeight="873.0" fitWidth="620.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+      <ComboBox fx:id="cb" onAction="#showPage" prefWidth="150.0" />
    </children>
 </AnchorPane>
