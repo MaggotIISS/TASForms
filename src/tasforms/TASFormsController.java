@@ -5,7 +5,9 @@
  */
 package tasforms;
 
+import java.io.File;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -17,7 +19,6 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javax.swing.JOptionPane;
 
 /**
 
@@ -134,8 +135,6 @@ public class TASFormsController implements Initializable {
 
   @Override
   public void initialize(URL url, ResourceBundle rb) {
-    load("forms");
-    load("master");
     String stringa = getClass().getResource("pics/forms/098.png").toString();
     img = new Image(stringa);
     iv.setImage(img);
@@ -145,16 +144,18 @@ public class TASFormsController implements Initializable {
       cb.getItems().add(forms[i].toString());
     }
     cb.getSelectionModel().select(0);
+    load("forms");
+    load("master");
   }
 
   @FXML
   private void checkChange(ActionEvent event) {
     if (check.isSelected()) {
-      setCombo("Master");
-      string = getClass().getResource("pics/").toString() + "Master/" + cb.getValue() + ".png";
+      load("Master");
+      string = getClass().getResource("pics/").toString() + "master/" + cb.getValue() + ".png";
     } else {
-      setCombo("Forms");
-      string = getClass().getResource("pics/").toString() + "Forms/" + cb.getValue() + ".png";
+      load("Forms");
+      string = getClass().getResource("pics/").toString() + "forms/" + cb.getValue() + ".png";
     }
     System.out.println(string);
     img = new Image(string);
@@ -163,31 +164,34 @@ public class TASFormsController implements Initializable {
   }
 
   private void load(String folder) {
-
-  }
-
-  private void setCombo(String foldername) {
-    String[] strings = null;
-    switch (foldername) {
-      case "Master": {
-        strings = masters;
-        break;
+    ArrayList al = new ArrayList();
+    Object[] lines = null;
+    File dir = new File("C://T5 Extra/TASForms/src/tasforms/pics/" + folder + "/");
+    System.out.println("dir = " + dir.toString());
+    try {
+      lines = dir.list();
+      int count = 0;
+      for (int i = 0; i < lines.length; i++) {
+        if (lines[i].toString().endsWith(".png")) {
+          count += 1;
+          System.out.println(lines[i].toString().substring(0, lines[i].toString().length() - 4));
+          al.add(lines[i].toString().substring(0, lines[i].toString().length() - 4));
+        }
       }
-      case "Forms": {
-        strings = forms;
-        break;
+      int siz = al.size();
+      lines = al.toArray();
+      System.out.println("setCombo(" + folder + ")");
+      Object[] strings = lines;
+      cb.getItems().clear();
+      for (int i = 0; i < strings.length; i++) {
+        oal.add(strings[i].toString());
+        cb.getItems().add(strings[i].toString());
       }
-      default: {
-        JOptionPane.showMessageDialog(null, this, "OOOOOOOOOOOOO", 0);
-      }
+      cb.getItems().sort(null);
+      cb.getSelectionModel().select(0);
+    } catch (Exception e) {
+      System.out.println(e);
     }
-    cb.getItems().clear();
-    for (int i = 0; i < strings.length; i++) {
-      oal.add(strings[i].toString());
-      cb.getItems().add(strings[i].toString());
-    }
-    cb.getSelectionModel().select(0);
-
   }
 
   @FXML
