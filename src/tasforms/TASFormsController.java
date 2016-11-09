@@ -134,6 +134,8 @@ public class TASFormsController implements Initializable {
 
   @Override
   public void initialize(URL url, ResourceBundle rb) {
+    load("forms");
+    load("master");
     String stringa = getClass().getResource("pics/forms/098.png").toString();
     img = new Image(stringa);
     iv.setImage(img);
@@ -158,6 +160,10 @@ public class TASFormsController implements Initializable {
     img = new Image(string);
     iv.setImage(img);
     showPage(ae);
+  }
+
+  private void load(String folder) {
+
   }
 
   private void setCombo(String foldername) {

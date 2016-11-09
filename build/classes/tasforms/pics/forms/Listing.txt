@@ -1,47 +1,47 @@
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\098.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\106.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\117.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\142.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\235.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\250.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\251.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\270.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\302.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\303.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\350.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\351.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\354.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\355.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\356.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\357.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\425.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\438.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\439.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\440.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\441.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\442.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\443.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\444.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\449.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\450.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\451.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\452.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\453.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\465.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\466.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\467.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\468.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\469.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\470.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\471.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\472.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\473.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\474.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\475.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\476.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\546.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\547.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\564.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\585.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\ChartedSpaceLeft.png
-C:\T5 Extra\TASForms\src\tasforms\pics\forms\ChartedSpaceRight.png
+"098",
+"106",
+"117",
+"142",
+"235",
+"250",
+"251",
+"270",
+"302",
+"303",
+"350",
+"351",
+"354",
+"355",
+"356",
+"357",
+"425",
+"438",
+"439",
+"440",
+"441",
+"442",
+"443",
+"444",
+"449",
+"450",
+"451",
+"452",
+"453",
+"465",
+"466",
+"467",
+"468",
+"469",
+"470",
+"471",
+"472",
+"473",
+"474",
+"475",
+"476",
+"546",
+"547",
+"564",
+"585",
+"ChartedSpaceLeft",
+"ChartedSpaceRight"
