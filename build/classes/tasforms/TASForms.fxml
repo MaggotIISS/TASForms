@@ -9,8 +9,10 @@
 
 <AnchorPane id="AnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tasforms.TASFormsController">
   <children>
-    <ImageView fx:id="iv" fitHeight="1000.0" fitWidth="800.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="571.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0" />
-    <ComboBox fx:id="cb" onAction="#showPage" prefWidth="150.0" />
-    <CheckBox fx:id="check" layoutX="150.0" layoutY="3.0" mnemonicParsing="false" onAction="#checkChange" text="Master" />
+    <ImageView fx:id="iv" fitHeight="1000.0" fitWidth="643.0" layoutX="157.0" layoutY="28.0" onMouseClicked="#copyPic" onScroll="#scroll" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="571.0" AnchorPane.leftAnchor="157.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0" />
+    <ComboBox fx:id="cb" onAction="#showPage" onMouseClicked="#setOldValue" prefWidth="150.0" />
+    <CheckBox fx:id="check" layoutX="150.0" layoutY="3.0" mnemonicParsing="false" onAction="#checkChange" selected="true" text="Master" />
+      <Label fx:id="ref" layoutX="228.0" layoutY="4.0" maxWidth="-Infinity" onMouseClicked="#refClick" prefHeight="17.0" prefWidth="567.0" text="Ref" AnchorPane.rightAnchor="5.0" />
+      <TextArea fx:id="ta" focusTraversable="false" layoutX="2.0" layoutY="25.0" onMouseClicked="#taClick" prefHeight="200.0" prefWidth="150.0" />
   </children>
 </AnchorPane>
